@@ -34,10 +34,86 @@ class Person(xname:String,xage:Int){
 }
 
 object Lesson_ClassAndObj {
-  println("########### Lesson_ClassAndObj Class ###########")
 
   def main(args: Array[String]): Unit = {
-    val p = new Person("zhangsan",20)
+    /**
+     * while
+     * do...while...
+     */
+//    var i = 0
+//    do{
+//      println(s"第 $i 次求婚。。。。。")
+//      i += 1
+//    }while(i < 100 )
+//    while(i < 100){
+//      println(s"第 $i 次求婚。。。。。")
+//      //i = i + 1
+//      i += 1
+//    }
+
+
+    /**
+     * for
+     */
+//    val r = 1 to 10//操作符操作，也可以写成方法，如1.to(10)，可以设置步长，如1.to(10.2)
+//    val r1 = 1 until 10
+//    println(r)//1,2,3,...,10
+//    println(r1)//1,2,3,...,9
+//    for(i <- 1 to 10){
+//      println(i)
+//    }
+
+//    //九九乘法表打印
+//    for(i <- 1 to 9){
+//      for(j <- 1 to 9){
+//        if(i>=j){
+//          //print(s"$i * $j = "+i*j+"\t")
+//          print(i+" * "+j+" = "+i*j+"\t")
+//        }
+//        if(i==j){
+//          println()
+//        }
+//      }
+//    }
+//    //双重循环写法二
+//    for(i <- 1 until 10; j <- 1 until 10){
+//      if(i>=j){
+//        //print(s"$i * $j = "+i*j+"\t")
+//        print(i+" * "+j+" = "+i*j+"\t")
+//      }
+//      if(i==j){
+//        println()
+//      }
+//    }
+
+//    for( i <- 1 to 1000;if(i > 500);if(i%2==0)){
+//      println(i)
+//    }
+//
+//    for( i <- 1 to 1000 if(i > 500) if(i%2==0)){
+//      println(i)
+//    }
+
+//    val result = for( i <- 1 to 1000 if(i < 50) if(i%2==0)) yield i
+//    println(result)
+
+
+    /**
+     * if..else
+     */
+//    val age = 20
+//    if(age<=20){
+//      println("age<=20")
+//    }else if(age>20&&age<=30){
+//      println("20<age<=30")
+//    }else{
+//      println("age>30")
+//    }
+
+
+
+//    println("########### Lesson_ClassAndObj Class ###########")
+//    val p = new Person("zhangsan",20)
 //    val p1 = new Person("wangwu",20,'F')
 //    println(p.gender)
 //    println(p1.gender)
