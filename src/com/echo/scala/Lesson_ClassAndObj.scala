@@ -62,7 +62,7 @@ object Lesson_ClassAndObj {
 //    for(i <- 1 to 10){
 //      println(i)
 //    }
-
+//
 //    //九九乘法表打印
 //    for(i <- 1 to 9){
 //      for(j <- 1 to 9){
@@ -85,7 +85,7 @@ object Lesson_ClassAndObj {
 //        println()
 //      }
 //    }
-
+//
 //    for( i <- 1 to 1000;if(i > 500);if(i%2==0)){
 //      println(i)
 //    }
@@ -93,7 +93,7 @@ object Lesson_ClassAndObj {
 //    for( i <- 1 to 1000 if(i > 500) if(i%2==0)){
 //      println(i)
 //    }
-
+//
 //    val result = for( i <- 1 to 1000 if(i < 50) if(i%2==0)) yield i
 //    println(result)
 
